@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +12,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.leaflet-container{
+  height: 100vh;
+}
+
+.container {
+  padding: 16px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: #3b82f6;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-top: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #2563eb;
+}
+
+.map-container {
+  width: 100%;
+  height: 400px;
+  margin-top: 16px;
+}
+
+.locations {
+  margin-top: 16px;
+}
+
+.trip-info {
+  margin-top: 16px;
+  font-weight: bold;
+}
+
